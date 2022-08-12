@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 5,
+            "value": "#  Background:"
+          },
+          {
+            "line": 6,
+            "value": "#  Given the user is on landing page"
+          },
+          {
+            "line": 7,
+            "value": "#  When user chooses to sign in"
+          }
+        ],
+        "line": 10,
+        "name": "Sign in",
+        "description": "",
+        "id": ";sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the user is on landing page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user chooses to sign in",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user enters the credentials",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user clicks sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user should be logged in to the website",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@SignIn-Simple"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "As a user\nI want to be able to sign in into Komi\nSo that i can access my profile",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "tc1.feature"
+  }
+]
